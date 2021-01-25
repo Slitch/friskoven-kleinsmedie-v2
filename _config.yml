@@ -1,0 +1,20 @@
+# Site settings
+title: Friskoven Kleinsmedie
+email: kontakt@friskoven-kleinsmedie.dk
+phone: 12345678
+description: Friskoven Kleinsmedie rådgiver, projekterer, tegner og forarbejder aluminium, jern og rustfrit stål. Herunder fremstiller og svejser vi stålkonstruktioner, facader, ...
+tagline: Friskoven Kleinsmedie
+locale: da_DK
+
+baseurl: "/friskoven-kleinsmedie-v2/" # the subpath of your site, e.g. /blog/
+# baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://slitch.github.io" # the base hostname & protocol for your site
+# url: "" # the base hostname & protocol for your site
+
+facebook_url: friskoven-kleinsmedie
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

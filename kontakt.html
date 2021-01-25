@@ -1,0 +1,41 @@
+---
+title: Kontakt
+layout: front
+---
+<aside class="bg-dark">
+  <div class="container text-center">
+      <div class="call-to-action">
+          <h2>Find os på Facebook</h2>
+          <a href="#" class="btn btn-default btn-xl wow tada">Se vores Facebook side</a>
+      </div>
+  </div>
+</aside>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Kontakt os</h2>
+                <hr class="primary">
+                <p>Er du klar til at starte dit nye project med os. Giv os et kald eller send en mail så kontakter vi dig snarest muligt.</p>
+            </div>
+            <div class="col-lg-2 col-lg-offset-2 text-center">
+                <a href="https://www.facebook.com/{{ site.facebook_url }}">
+                    <i class="fa fa-facebook-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.facebook_url }}</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 text-center">
+                <a href="mailto:{{ site.email }}">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.email }}</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1 text-center">
+                <a href="tel:{{ site.phone }}">
+                    <i class="fa fa-phone-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>{{ site.phone }}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
